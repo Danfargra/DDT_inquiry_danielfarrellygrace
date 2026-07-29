@@ -46,7 +46,7 @@ ws.mainloop()
 
 
 
-PAGE2.py
+PAGES
 
 from tkinter import *
 
@@ -94,7 +94,7 @@ ws.mainloop()
 
 
 
-PAGE3.py
+PAGES
 
 from tkinter import *
 

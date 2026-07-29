@@ -10,7 +10,7 @@ root = tk.Tk()
 
 
 # root window title and dimension
-root.title("Welcom to GeekForGeeks")
+root.title("Welcome to GeekForGeeks")
 # Set geometry (widthxheight)
 root.geometry('350x200')
 
@@ -35,7 +35,7 @@ HEADER_COLOUR = '#ffffff'
 header = tk.Frame(root)
 header.pack()
 
-img = Image.open("v1_skeleton/images/ryan.png").resize((WINDOW_WIDTH, 500))
+img = Image.open("v1_skeleton\test_gui\Advisory_logo.png").resize((WINDOW_WIDTH, 500))
 _ryan_img = ImageTk.PhotoImage(img)
 label = tk.Label(header, image=_ryan_img, bg=HEADER_COLOUR)
 label.image = _ryan_img  # keep reference
